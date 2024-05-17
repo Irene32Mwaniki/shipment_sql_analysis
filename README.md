@@ -83,3 +83,4 @@ CREATE TABLE Products (
     Profit DECIMAL(10, 2),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
+
